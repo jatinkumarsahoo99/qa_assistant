@@ -1,0 +1,73 @@
+.app-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9faff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #5c6bc0;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+  margin-top: 8px;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.answer-container {
+  margin-top: 20px;
+  background: #eef2ff;
+  padding: 16px;
+  border-left: 4px solid #3f51b5;
+  border-radius: 8px;
+}
+
+.answer {
+  font-size: 16px;
+  line-height: 1.6;
+}
