@@ -20,7 +20,9 @@ export interface AskResponse {
 
 @Injectable({ providedIn: 'root' })
 export class RagService {
-  private baseUrl = 'http://localhost:8000'; // Your FastAPI backend
+  // private baseUrl = 'http://localhost:8000'; // Your FastAPI backend
+
+  private baseUrl = 'https://resource-civic-chassis-phrases.trycloudflare.com/docs';
 
   constructor(private http: HttpClient) {}
 
